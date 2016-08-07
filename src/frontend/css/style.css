@@ -1,0 +1,112 @@
+::selection { background: transparent; }
+::-moz-selection { background: transparent; }
+::-webkit-user-select { background: transparent; }
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.85);
+	z-index: 1337;
+	padding-top: 30px;
+}
+
+.overlay.inactive {
+	display: none;
+}
+
+.overlay .password {
+	margin: 0 auto;
+	width: 100%;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+}
+.overlay .continue-button {
+	width: 100%;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 0 auto 30px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #aaa;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+body {
+	background: #eee;
+}
+
+.lock-state > .glyphicon {
+	font-size: 1.5em;
+}
+.lock-state > .badge {
+	margin-left: 8px;
+	margin-top: -6px;
+}
+.lock-button {
+	width: 100%;
+	display: block;
+}
+.file-info-size, .file-info {
+	font-size: 1.5em;
+}
+
+.badge-locked {
+	background-color: #d9534f;
+}
+
+.progress {
+	border: 1px solid rgba(5, 5, 5, 0.35);
+	background-color: rgba(250, 250, 250, 1);
+}
+
+hr {
+	border-top: 1px solid #ccc;
+	margin: 10px 0 10px 0;
+}
+
+body {
+	padding-top: 10px;
+}
+
+.copyright {
+	opacity: 0.5;
+	text-align: center;
+	display: block;
+}

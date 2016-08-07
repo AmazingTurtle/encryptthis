@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptThis", "src\EncryptThis\EncryptThis.csproj", "{055AC6FC-1D86-41B8-B96C-4A78BB0C67DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{04EDF501-FFC2-4F43-8674-2D3610C08796}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{35806AE9-2CEE-4461-B8D2-D33146E729CB}"
+	ProjectSection(SolutionItems) = preProject
+		src\frontend\index.html = src\frontend\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{74389AE3-E105-4AD9-86C5-36012A119597}"
+	ProjectSection(SolutionItems) = preProject
+		src\frontend\js\bootstrap.js = src\frontend\js\bootstrap.js
+		src\frontend\js\bootstrap.min.js = src\frontend\js\bootstrap.min.js
+		src\frontend\js\jquery.js = src\frontend\js\jquery.js
+		src\frontend\js\npm.js = src\frontend\js\npm.js
+		src\frontend\js\script.js = src\frontend\js\script.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{C7D7B5B4-E7CB-47D1-B441-29E1FBC2364E}"
+	ProjectSection(SolutionItems) = preProject
+		src\frontend\css\bootstrap-theme.css = src\frontend\css\bootstrap-theme.css
+		src\frontend\css\bootstrap-theme.css.map = src\frontend\css\bootstrap-theme.css.map
+		src\frontend\css\bootstrap-theme.min.css = src\frontend\css\bootstrap-theme.min.css
+		src\frontend\css\bootstrap-theme.min.css.map = src\frontend\css\bootstrap-theme.min.css.map
+		src\frontend\css\bootstrap.css = src\frontend\css\bootstrap.css
+		src\frontend\css\bootstrap.css.map = src\frontend\css\bootstrap.css.map
+		src\frontend\css\bootstrap.min.css = src\frontend\css\bootstrap.min.css
+		src\frontend\css\bootstrap.min.css.map = src\frontend\css\bootstrap.min.css.map
+		src\frontend\css\style.css = src\frontend\css\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{B10AAF59-CE2A-4313-B8DE-79DE88374164}"
+	ProjectSection(SolutionItems) = preProject
+		src\frontend\fonts\glyphicons-halflings-regular.eot = src\frontend\fonts\glyphicons-halflings-regular.eot
+		src\frontend\fonts\glyphicons-halflings-regular.svg = src\frontend\fonts\glyphicons-halflings-regular.svg
+		src\frontend\fonts\glyphicons-halflings-regular.ttf = src\frontend\fonts\glyphicons-halflings-regular.ttf
+		src\frontend\fonts\glyphicons-halflings-regular.woff = src\frontend\fonts\glyphicons-halflings-regular.woff
+		src\frontend\fonts\glyphicons-halflings-regular.woff2 = src\frontend\fonts\glyphicons-halflings-regular.woff2
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{055AC6FC-1D86-41B8-B96C-4A78BB0C67DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055AC6FC-1D86-41B8-B96C-4A78BB0C67DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055AC6FC-1D86-41B8-B96C-4A78BB0C67DC}.Debug|x86.ActiveCfg = Debug|x86
+		{055AC6FC-1D86-41B8-B96C-4A78BB0C67DC}.Debug|x86.Build.0 = Debug|x86
+		{055AC6FC-1D86-41B8-B96C-4A78BB0C67DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055AC6FC-1D86-41B8-B96C-4A78BB0C67DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055AC6FC-1D86-41B8-B96C-4A78BB0C67DC}.Release|x86.ActiveCfg = Release|x86
+		{055AC6FC-1D86-41B8-B96C-4A78BB0C67DC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{055AC6FC-1D86-41B8-B96C-4A78BB0C67DC} = {04EDF501-FFC2-4F43-8674-2D3610C08796}
+		{74389AE3-E105-4AD9-86C5-36012A119597} = {35806AE9-2CEE-4461-B8D2-D33146E729CB}
+		{C7D7B5B4-E7CB-47D1-B441-29E1FBC2364E} = {35806AE9-2CEE-4461-B8D2-D33146E729CB}
+		{B10AAF59-CE2A-4313-B8DE-79DE88374164} = {35806AE9-2CEE-4461-B8D2-D33146E729CB}
+	EndGlobalSection
+EndGlobal
